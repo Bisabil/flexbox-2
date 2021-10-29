@@ -1,0 +1,193 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+@media only screen and (min-width:396px) and (max-width:559px) {
+    /* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position:  
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    background-color: #5560F2;
+    border-radius: 50px;
+}
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+    
+    /* Banner */
+main {
+    display: flex;
+    flex-direction: column;
+    background: url('./img/main-banner.jpg') no-repeat;
+    background-size: cover;
+    height:35vh;
+    padding-top:50px;
+    justify-content: flex-start;
+    margin-top: 30px;
+    
+}
+
+main h1 {
+    color: white;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+main p {
+    color: white;
+    margin-left: 20px;
+    line-height: 2;
+    margin-top: 2px;
+    width: 80%;
+}
+
+button {
+    width: 25%;
+    height: 10%;
+    margin-left: 20px;
+    background-color: #5560F2;
+    border: none;
+    color: white;
+    font-size: 1.07rem;
+    font-weight: 700;
+    border-radius: 5px'
+}
+
+button:hover {
+    background-color:#5BAFE6;
+    cursor: pointer;
+
+    
+}
+
+    /*Main Section */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    
+}
+
+.main-info-one {
+    width: 80%;
+}
+
+.header-one h2 {
+    font-weight: 600;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;;
+}
+
+.list-one ul {
+    padding: 0;
+    margin-top: 40px;
+}
+
+.list-one img {
+    background-color: #5890FC;
+    border-radius: 20%;
+    padding: 18px 18px;
+}
+
+    /* Section Two */
+
+.main-info-two {
+    background-color: #eeeeeeb9;
+    margin-top: 50px;
+}
+
+.header-two {
+    margin-top: 50px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.header-two h2 {
+    font-weight: 600;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.list-two ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list-two li {
+    border: 2px solid #A2C9F5;
+    border-radius: 5px;
+    width: 80%;
+    margin: 20px;
+    padding: 20px 20px 
+    
+}
+
+
+    /* Section Three */
+.main-info-three  {
+        width: 80%;
+        margin-top: 40px;    
+    }
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+input {
+    border: none;
+    background-color: rgb(230, 230, 230);
+    padding-left: 10;
+}
+
+.form button {
+    margin: 0;
+}
+    /* Footer */
+}
+
